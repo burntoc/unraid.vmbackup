@@ -1930,7 +1930,7 @@
   // set the width of the first grid column based on content.
   function set_width_vmbackup_manage_configs(set_config_width = true) {
     // get an array of all element widths using the supplied selector.
-    var widths = $("#current_config_manage_configs_div .input_description").map(function () {
+    var widths = $("#manage_configs_div .input_description").map(function () {
       return $(this).width();
     }).get();
 
@@ -1938,7 +1938,7 @@
     var max_width = Math.max.apply(null, widths);
 
     // set each element to the max width using the supplied selector.
-    $("#current_config_manage_configs_div .input_description").css({ "width": max_width });
+    $("#manage_configs_div .input_description").css({ "width": max_width });
 
     // set config dropdown width for consistency.
     if (set_config_width) {
