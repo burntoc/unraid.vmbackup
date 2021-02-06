@@ -3,9 +3,9 @@
 <!DOCTYPE PLUGIN [
 <!ENTITY name       "vmbackup">
 <!ENTITY author     "jtok">
-<!ENTITY version    "2021.02.03">
+<!ENTITY version    "2021.02.03a">
 <!ENTITY tag        "v0.2.2">
-<!ENTITY branch     "master">
+<!ENTITY branch     "dev-6.9">
 <!ENTITY launch     "Settings/Vmbackup">
 <!ENTITY icon       "clone">
 <!ENTITY gitURL     "https://raw.githubusercontent.com/&author;/unraid.&name;/&branch;">
@@ -27,12 +27,11 @@
   launch="&launch;"
   icon="&icon;"
   min="6.7.0"
-  max="6.8.3">
 
 <CHANGES>
 ##&name;
 
-### v0.2.2 - 2021/02/03
+### v0.2.2 - 2021/02/03a
 **Raz of the SAZ**
 
 - added checks to kill stuck scripts.
